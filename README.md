@@ -32,7 +32,7 @@ Inside this repository, you'll find a markdown file at `content/projects/test-pr
 After you have completed the task, follow these steps:
 
 1. Deploy your forked repository on Netlify.
-2. Provide us with the URL of your forked GitHub repository and your Netlify deployment by sending an email to Siddhart Ghogli at 21067392@student.hhs.nl. Please CC t.i.vandenbosch@hhs.nl and l.pavlova@hhs.nl on this email.
+2. Provide us with the URL of your forked GitHub repository and your Netlify deployment by sending an email to Siddhart Ghogli at 21067392@student.hhs.nl.
 
 Remember, we're looking for your ability to create clean, maintainable code and your eye for detail in translating design to a live webpage.
 
