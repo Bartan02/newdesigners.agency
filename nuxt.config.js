@@ -76,5 +76,6 @@ export default {
         "postcss-nested": {}
       }
     }
-  }
+  },
+  telemetry: false,
 };

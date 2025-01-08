@@ -90,7 +90,7 @@
 
           <div class="p-1">
             <img src="~/assets/images/work/germandesk.jpg"  class="block pt-2 pb-2">
-            <h3>German Desk - COMING SOON</a></h3>
+            <h3>German Desk - COMING SOON</h3>
             <p>Website design and development</p>
             <p class="pt-1">
               <strong class="pr-2">Web Design</strong>
