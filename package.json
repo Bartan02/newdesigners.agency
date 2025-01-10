@@ -9,20 +9,33 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxt/content": "^1.11.1",
-    "core-js": "^3.6.5",
-    "nuxt": "^2.14.6",
-    "vue-marquee-slider": "^1.0.6"
+    "@nuxt/content": "1.11.1",
+    "core-js": "3.6.5",
+    "nuxt": "2.14.6",
+    "vue": "2.6.12",
+    "vue-marquee-slider": "1.0.6",
+    "vue-server-renderer": "2.6.12",
+    "vuex": "3.6.2"
   },
   "devDependencies": {
-    "@fortawesome/free-brands-svg-icons": "^5.15.1",
-    "@fortawesome/free-solid-svg-icons": "^5.15.1",
-    "@nuxtjs/fontawesome": "^1.1.2",
-    "@nuxtjs/tailwindcss": "^3.4.2",
-    "autoprefixer": "^9.8.6",
-    "nuxt-lazy-load": "^1.2.4",
-    "postcss": "^7.0.35",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3",
-    "vue-tasty-burgers": "^1.2.3"
+    "@babel/cli": "7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.12.13",
+    "@fortawesome/free-brands-svg-icons": "5.15.1",
+    "@fortawesome/free-solid-svg-icons": "5.15.1",
+    "@nuxt/babel-preset-app": "^2.18.1",
+    "@nuxtjs/fontawesome": "1.1.2",
+    "@nuxtjs/tailwindcss": "3.4.2",
+    "autoprefixer": "9.8.6",
+    "babel-loader": "^9.2.1",
+    "nuxt-lazy-load": "1.2.4",
+    "postcss": "7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@2.0.3",
+    "vue-loader": "^15.11.1",
+    "vue-svg-loader": "^0.16.0",
+    "vue-tasty-burgers": "1.2.3",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.47.0",
+    "webpack-cli": "^3.3.12"
   }
 }
