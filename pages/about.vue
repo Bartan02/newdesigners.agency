@@ -6,7 +6,8 @@
     <section id="hero">
       <div class="container">
         <h1 class="mb-2">About us</h1>
-        <p class="md:text-2xl mx-auto">We are New Designers, the first student-run digital agency in The Hague. Founded in September 2020 we are a full-service learning environment that designs and develops brand identities and tailor-made digital solutions. We create websites, brand styles, provide UX reviews, as well as motion design and testing of existing digital products.</p>
+        <p class="md:text-2xl mx-auto">We are New Designers, the first student-run digital agency in The Hague. Founded in September 2020 we are a full-service learning environment in <a href="https://www.thuas.com/" class="text-white underline !hover:text-white">THUAS</a> that designs and develops brand identities and tailor-made digital solutions. We create websites, brand styles, provide UX reviews, as well as motion design and testing of existing digital products.</p>
+        <img src="../assets/images/thuas-logo.png" class="pt-3 block mx-auto" alt="THUAS logo">
       </div>
     </section>
 
@@ -16,9 +17,10 @@
 
           <h2>Learning by doing</h2>
           <p class="mb-2 mx-auto">
-            Our goal is to have every design built and put live, our products will be used in real life. Students determine their role within the agency and work together in a team of likeminded (international) students. We offer a place where students can discover who they are.
+            Our goal is to have every design built and put live, our products will be used in real life. Determine your own role within the agency and work together in a team of likeminded international students. We offer a place where students can discover who they are.
           </p>
 
+          <h3 class="text-center mt-5">Looking for a new experience?</h3>
           <p class="mb-2 mx-auto">
             Are you a student that wants to get out of your comfort zone and grow to deliver the next successful digital project? We are always looking for students with passion for design, entrepreneurship and/or frontend development that like to work in a team. Please drop by SL7.02 or send us <a href="mailto:newdesigners@hhs.nl"> an email</a> and get to know us!
           </p>
@@ -33,6 +35,14 @@
     </section>
 
 
+    <Testimonial
+      name="Jessica and Hanneke"
+      imageSrc="hanneke-jessica.jpg"
+      quote="‘Working with New Designers surpassed our expectations. They expertly matched us with talented students who were responsive, receptive, and acted swiftly. We appreciated their dedicated supervision. Excited to continue our partnership!‘"
+      linkedinUrl=""
+      company="Study & Career Centre"
+    />
+
     <!-- What we do -->
     <section id="what-we-do">
       <div class="container">
@@ -43,21 +53,18 @@
       </div>
     </section>
 
-
     <!-- Incubator -->
     <section id="incubator">
       <div class="container text-center overflow-hidden">
-        <h2>Edtech Incubator</h2>
+        <h2>We launched our own incubator program!</h2>
         <img src="~/assets/images/submit-project.png" class="float-right pl-2 pb-6">
 
         <p class="mx-auto text-left">
-          In addition to working for clients we also host
-          educational software startups. For example, if you have an
-          idea for your own educational product, we can help you with validation, design, development and
+          In addition to working for clients we also host the first student-run incubator in the Netherlands. Kick-start your startup in our 20-week program. For example, if you have an
+          idea for your own (educational) product, we can help you with validation, design, development and
           marketing.<br><br> Want to know what is possible? Please
-          <a href="mailto:newdesigners@hhs.nl">send us an email</a> or leave your <nuxt-link
-            to="/get-started">contact info </nuxt-link> if you want
-          to apply for our incubator.
+          <a href="https://nexted.nl">visit NextEd, our student startup incubator</a> 
+          to apply or get more info.
         </p>
       </div>
     </section>
