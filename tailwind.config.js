@@ -110,6 +110,14 @@ module.exports = {
           '"Noto Color Emoji"'
         ]
       },
+      translate: {
+        '1/7': '14.2857143%',
+        '2/7': '28.5714286%',
+        '3/7': '42.8571429%',
+        '4/7': '57.1428571%',
+        '5/7': '71.4285714%',
+        '6/7': '85.7142857%',
+      },
       fontSize: {
         md: ["1.0625rem", { lineHeight: "1.5em" }]
       },
@@ -118,20 +126,22 @@ module.exports = {
         'testimg': '196px',
         'testimgsmall': '135px',
         'faqwidthlg': '59.125rem',
-
+        'hsiflogo': '420px',
+        'hsiflogomobile': '60vw'
       },
       height:{
+        inherit: "inherit",
         'testimg': '196px',
         'testimgsmall': '135px',
         'faqheight': '5.25rem',
-
-
+        'hsiflogo': '420px',
+        'hsiflogomobile': '60vw'
       },
       maxWidth: {
         "logo-xsm": "75px",
         "logo-sm": "150px",
         "logo": "250px",
-        "logo-md": "350px",
+        "logo-md": "350px"
       },
       transitionProperty: {
         'height': 'height, max-height',
@@ -143,5 +153,6 @@ module.exports = {
       rotate: ["group-hover"]
     }
   },
-  plugins: []
+  plugins: [
+  ]
 };
